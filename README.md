@@ -1,5 +1,7 @@
 # IsoResearch AI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23925949.svg)](https://doi.org/10.5281/zenodo.23925949)
+
 **A private desktop research workstation for water isotope hydrology, atmospheric water-vapour isotopes and
 isotope-enabled climate modelling.**
 
