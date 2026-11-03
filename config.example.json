@@ -1,0 +1,44 @@
+{
+  "_comment": "Example of settings.json. The app creates the real file in your data folder (Windows: %APPDATA%\\IsoResearchAI\\settings.json). Edit it via Settings in the app, or copy this file there while the app is closed.",
+  "ui": {
+    "theme": "dark",
+    "font_scale": 1.0
+  },
+  "storage": {
+    "library_dir": ""
+  },
+  "privacy": {
+    "strict_offline": true,
+    "allow_online_features": false
+  },
+  "llm": {
+    "backend": "ollama",
+    "base_url": "http://127.0.0.1:11434",
+    "model": "",
+    "temperature": 0.2,
+    "num_ctx": 8192,
+    "connect_timeout_s": 5,
+    "read_timeout_s": 300
+  },
+  "retrieval": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "use_sentence_transformers": true,
+    "top_k": 8,
+    "chunk_chars": 1100,
+    "chunk_overlap": 150,
+    "min_score": 0.0
+  },
+  "ocr": {
+    "enabled": true,
+    "language": "eng",
+    "tessdata": ""
+  },
+  "profile": {
+    "research_area": "Water isotope hydrology and isotope-enabled regional atmospheric modelling.",
+    "primary_location": "Port Blair, Andaman and Nicobar Islands, India.",
+    "primary_observations": "Rainfall water isotopes from 2024–2026, including δ18O, δ2H, and derived d-excess when available.",
+    "modelling_interests": "Isotope-enabled regional modelling, especially IsoRSM, with alternative models considered when appropriate.",
+    "related_observations": "Rainfall amount, rainfall intensity, event evolution, meteorological variables, moisture transport, and back trajectories where available.",
+    "scientific_objective": "Evaluate simulated rainfall isotope variability against observations, investigate physical processes controlling isotope variability, and identify defensible research questions."
+  }
+}

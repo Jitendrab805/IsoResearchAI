@@ -1,0 +1,15 @@
+# IsoResearch AI — core dependencies (Python 3.10–3.13; 3.12 recommended on Windows)
+# Installing these needs internet once. After setup the app runs fully offline.
+PySide6>=6.6            # desktop GUI (incl. QtPdf viewer and QtSvg icons)
+PyMuPDF>=1.24           # PDF text extraction (+ optional OCR via a local Tesseract install)
+faiss-cpu>=1.8          # local vector index
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+matplotlib>=3.8
+xarray>=2024.1
+netCDF4>=1.6
+openpyxl>=3.1
+python-docx>=1.1
+Markdown>=3.5
+requests>=2.31          # used only for the localhost Ollama API

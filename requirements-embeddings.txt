@@ -1,0 +1,5 @@
+# OPTIONAL: semantic (neural) embeddings for better passage retrieval.
+# Without this, IsoResearch AI uses its built-in lexical-hash embeddings (fully offline, no download).
+# On Windows install the CPU build of PyTorch first to avoid a multi-GB CUDA download:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+sentence-transformers>=3.0
