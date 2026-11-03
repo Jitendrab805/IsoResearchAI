@@ -164,3 +164,19 @@ synthetic PDFs generated on the fly and a fake local Ollama server — no real p
 - [docs/PACKAGING.md](docs/PACKAGING.md)
 
 No research papers are distributed with this application. Import only papers you have the right to use.
+
+## Citation
+
+If you use **IsoResearch AI** in your research, workflows, or publications, please cite it as:
+
+```bibtex
+@software{Bhilala_IsoResearchAI_2026,
+  author = {Bhilala, Jitendra},
+  title = {{IsoResearch AI: Offline Local Scientific Research Workstation}},
+  year = {2026},
+  month = {11},
+  version = {1.0.0},
+  doi = {10.5281/zenodo.23925949},
+  url = {[https://github.com/Jitendrab805/IsoResearchAI](https://github.com/Jitendrab805/IsoResearchAI)}
+}
+
